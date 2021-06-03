@@ -132,7 +132,6 @@
 
 .row{
 overflow: auto;
-background-color: aqua;
 padding-top: 10px;
 
 }
@@ -140,8 +139,6 @@ padding-top: 10px;
 
 .col{
 float: left;
-background-color: blueviolet;
-
 }
 
 
