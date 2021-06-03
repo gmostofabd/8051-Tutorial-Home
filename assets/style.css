@@ -4,14 +4,97 @@ body{font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
 h3{font-size: 200%; flex-wrap: 23px ; text-align: left; padding: 0;  color: #8a094a; }
 img {width: 100%; height: 100%;}
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.shared_header{
+  width: 960px;
+  height: auto;
+  background-color: #000;
+}
+
+.shared_header ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.shared_header ul li a{
+  display: block;
+  padding: 20px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.shared_header ul li a:hover{
+  color: yellow;
+  background-color: red;
+}
+
+.shared_header ul li ul{
+  position: absolute;
+  background: #000;
+  left: -9999px;
+}
+
+.shared_header ul li:hover ul{
+  left: 0px;
+}
+
+.shared_header ul li ul li{
+  width: 200px;
+  border-bottom: white solid #fff;
+
+}
+
+.banner_cover{
+  width: 960px;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: yellowgreen;
+}
+
+.banner_text{
+  padding: 100px;
+  text-transform: uppercase;
+}
+.banner_text button{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  margin: 0 8px;
+}
+
 #root_cont{
-    width: 1000px; height: 1800px;
+    width: 960px; height: 2000px;
     background-color: lightgoldenrodyellow;
     margin: auto;
   } 
 
+
+.shared_header{
+
+}
+
+
 #header_common{
-    width:1000px; height:130px; 
+    width:960px; height:125px; 
     margin-left: auto ; margin-right: auto ; 
     background-color:#FFEEDD;
   }
