@@ -109,7 +109,7 @@
 }
 
 .about_text{
-  width: 450px;
+  width: 530px;
   height: auto;
   padding: 0 20px;
 }
@@ -120,22 +120,27 @@
   text-transform: uppercase;
   border-bottom: 1px solid #fff;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .about_text p{
   font-size: 20px;
   color: gray;
   line-height: 22px;
+  text-align: justify;
 }
 
 .row{
 overflow: auto;
+background-color: aqua;
+padding-top: 10px;
 
 }
 
 
 .col{
 float: left;
+background-color: blueviolet;
 
 }
 
