@@ -83,9 +83,28 @@
   background-color: rgb(153, 232, 252);
 }
 
-.about_logo image{
+.title{
+  width: 220px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.title h2{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about_logo img{
   width: 350px;
   height: auto;
+  margin: 0 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 8px 10px 0px #000;
 }
 
 .about_text{
