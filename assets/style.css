@@ -1,8 +1,5 @@
 
 
-body{font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
-h3{font-size: 200%; flex-wrap: 23px ; text-align: left; padding: 0;  color: #8a094a; }
-
 *{
   padding: 0;
   margin: 0;
@@ -83,7 +80,7 @@ h3{font-size: 200%; flex-wrap: 23px ; text-align: left; padding: 0;  color: #8a0
 .about_section{
   width: 960px;
   height: auto;
-  background-color: tomato;
+  background-color: rgb(153, 232, 252);
 }
 
 .about_logo image{
@@ -95,6 +92,20 @@ h3{font-size: 200%; flex-wrap: 23px ; text-align: left; padding: 0;  color: #8a0
   width: 450px;
   height: auto;
   padding: 0 20px;
+}
+
+.about_text h2{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.about_text p{
+  font-size: 20px;
+  color: gray;
+  line-height: 22px;
 }
 
 .row{
